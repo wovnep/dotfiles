@@ -1,0 +1,26 @@
+* {
+	all: unset;
+	background-image: none;
+	transition: 200ms cubic-bezier(0.5, 0.7, 0.1, 1);
+}
+
+window {
+	background: rgba(17, 17, 27, 0.5);
+}
+
+button {
+	font-family: 'Material Symbols Outlined';
+	font-size: 10rem;
+	background-color: rgba(30, 30, 46, 0.7);
+	color: #f5e0dc;
+	margin: 2rem;
+	border-radius: 2rem;
+	padding: 3rem;
+}
+
+button:focus,
+button:active,
+button:hover {
+	background-color: rgba(69, 71, 90, 0.5);
+	border-radius: 2rem;
+}
